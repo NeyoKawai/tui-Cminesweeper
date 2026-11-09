@@ -1,3 +1,9 @@
+
+HELLO IT'S ME NEYOKAWAI
+and i stoled this thing or somethin???
+idk how this works. i just use PDCurses for windows version. they are never using their
+terminal so if i need to delete your thing from my repo. i'll do it without blinking even once. just text me or idk
+
 PDCurses
 ========
 
