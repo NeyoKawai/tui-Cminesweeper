@@ -1,6 +1,7 @@
 #include "ui.h"
 #include <curses.h>
-
+// LINUX VERSION OF UI FOR TERMINALS
+// WORKS PRETTY WELL
 void init_ui(void) {
   initscr();
   cbreak();

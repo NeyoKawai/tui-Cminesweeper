@@ -1,5 +1,5 @@
 #pragma once
-
+// I SEE NO REASONS TO MAKE SECOND .h FILE
 #include "../game.h"
 #include <curses.h>
 void init_ui(void);

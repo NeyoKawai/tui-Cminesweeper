@@ -1,6 +1,10 @@
 #include "ui.h"
 #include <curses.h>
 
+// THIS IS THE WINDOWS UI FILE
+// HONESTLY I HAVE NO IDEA IS THIS WORKS OR NO CUZ I DONT HAVE WINDOWS
+// I CANT CHECK HOW DOES IT WORK ON WINDOWS CMD OR POWERSHELL
+
 void init_ui(void) {
   initscr();
   cbreak();

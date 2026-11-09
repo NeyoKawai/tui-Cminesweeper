@@ -3,7 +3,7 @@
 
 #include "board.h"
 #include "game.h"
-#include "ui/ui.h"
+#include "ui/ui.h" // i don't really need another directory but suddenly i have
 
 int main(void) {
   Cell board[HEIGHT][WIDTH];
