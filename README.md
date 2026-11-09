@@ -1,4 +1,4 @@
-# TUI Minesweeper (Linux) Windows will be supported soon
+# TUI Minesweeper (Linux and Windows)
 
 A simple terminal-based Minesweeper game written in C using **ncurses**.
 
@@ -10,7 +10,7 @@ A simple terminal-based Minesweeper game written in C using **ncurses**.
 - Colored numbers and cursor highlighting
 
 ## Planned Features
-
+- Better UI (STILL TUI)
 - Customizable board dimensions and mine count
 - Configurable keyboard bindings
 - Custom color themes
@@ -25,7 +25,11 @@ A simple terminal-based Minesweeper game written in C using **ncurses**.
 - At least an IBM PC from 1980
 ### Prerequisites
 
-Select your Linux distribution to install the required dependencies (`gcc`, `make`, `ncurses`):
+#### WINDOWS VISTA/XP/7/10/11
+just pray your cmd can work with this thing
+and ofc pray that my makefile would work for u
+
+### Select your Linux distribution to install the required dependencies (`gcc`, `make`, `ncurses`):
 
 #### Arch Linux
 ```bash
