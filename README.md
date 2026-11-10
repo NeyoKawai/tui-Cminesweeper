@@ -1,8 +1,7 @@
-<img width="614" height="664" alt="изображение" src="https://github.com/user-attachments/assets/75af1a90-bdf1-4474-9639-da6e9f43638d" />
 # TUI Minesweeper (Linux and Windows)
 
 A simple terminal-based Minesweeper game written in C using **ncurses**.
-
+<img width="614" height="664" alt="изображение" src="https://github.com/user-attachments/assets/75af1a90-bdf1-4474-9639-da6e9f43638d" />
 ## Features
 - Terminal-based interface powered by ncurses
 - Safe first click
