@@ -55,18 +55,18 @@ void draw_board(Cell board[HEIGHT][WIDTH], Game *game) {
 
       if (cell->flagged && !cell->revealed) {
         attron(COLOR_PAIR(7));
-        mvaddstr(screen_y, screen_x, " F ");
+        mvaddstr(screen_y, screen_x, "F ");
         attroff(COLOR_PAIR(7));
       } else if (!cell->revealed) {
         attron(COLOR_PAIR(1));
-        mvaddstr(screen_y, screen_x, "###");
+        mvaddstr(screen_y, screen_x, "[]");
         attroff(COLOR_PAIR(1));
       } else if (cell->has_mine) {
         attron(COLOR_PAIR(2));
-        mvaddstr(screen_y, screen_x, " * ");
+        mvaddstr(screen_y, screen_x, "# ");
         attroff(COLOR_PAIR(2));
       } else if (cell->adjacent_mines == 0) {
-        mvaddstr(screen_y, screen_x, "   ");
+        mvaddstr(screen_y, screen_x, "  ");
       } else {
         int color = 6;
 
@@ -78,7 +78,7 @@ void draw_board(Cell board[HEIGHT][WIDTH], Game *game) {
           color = 5;
 
         attron(COLOR_PAIR(color));
-        mvprintw(screen_y, screen_x, " %d ", cell->adjacent_mines);
+        mvprintw(screen_y, screen_x, "%d ", cell->adjacent_mines);
         attroff(COLOR_PAIR(color));
       }
 
